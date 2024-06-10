@@ -1,0 +1,53 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 23%, 16%);
+    font-family: "Manrope", sans-serif;
+}
+hr{
+    height: 2px;
+    width: 100%;
+
+}
+.row i{
+    width: 80px;
+    transition: transform 0.5s ease;
+    font-size: 23px;
+}
+.dice{
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    cursor: pointer;
+    color:  hsl(217, 19%, 24%);
+    transition: box-shadow 0.5s ease;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% ,50%);
+}
+.dice:hover{
+    box-shadow: 0px 0px 20px hsl(150, 100%, 66%);
+}
+.dice:hover i{
+    transform: rotate(-30deg);
+}
+
+.col-md-6{
+    background-color: hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    position: relative;
+    border-radius: 10px;
+}
+.h6{
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+p{
+    font-size: 28px;
+}
